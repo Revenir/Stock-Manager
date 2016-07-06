@@ -1,0 +1,14 @@
+﻿<Window x:Class="Stock_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stock Manager" Height="300" Width="172.6">
+    <Grid>
+        <Button x:Name="AddStock" Content="Add New Product" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="140" Height="31" Click="AddStock_Click"/>
+        <Button x:Name="ModifyStock" Content="Modify Stock" HorizontalAlignment="Left" Margin="13,69,0,0" VerticalAlignment="Top" Width="137" Height="24" Click="ModifyStock_Click"/>
+        <Button x:Name="DeleteStock" Content="Delete Stock" HorizontalAlignment="Left" Margin="13,107,0,0" VerticalAlignment="Top" Width="137" Height="22" Click="DeleteStock_Click"/>
+        <Button x:Name="ViewStock" Content="View Stock" HorizontalAlignment="Left" Margin="13,147,0,0" VerticalAlignment="Top" Width="137" Height="23" Click="ViewStock_Click"/>
+        <Button x:Name="ViewDB" Content="View Database" HorizontalAlignment="Left" Margin="13,186,0,0" VerticalAlignment="Top" Width="137" Height="27" Click="ViewDB_Click"/>
+        <Button Content="Add Stock" HorizontalAlignment="Left" Margin="13,228,0,0" VerticalAlignment="Top" Width="137" Height="23" Click="Button_Click"/>
+
+    </Grid>
+</Window>

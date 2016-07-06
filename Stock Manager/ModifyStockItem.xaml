@@ -1,0 +1,23 @@
+﻿<Window x:Class="Stock_Manager.ModifyStockItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modify Stock Item" Height="449.723" Width="672.863">
+    <Grid>
+        <Label Content="Input SKU Number of Item to Modify:" HorizontalAlignment="Left" Margin="30,32,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SKUNumberToFind" HorizontalAlignment="Left" Height="23" Margin="243,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318"/>
+        <Button x:Name="SearchSKU" Content="Search" HorizontalAlignment="Left" Margin="566,32,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SearchSKU_Click"/>
+        <TextBox x:Name="SKUNumber" HorizontalAlignment="Left" Height="23" Margin="136,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="ItemName" HorizontalAlignment="Left" Height="23" Margin="136,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="NumberOfStock" HorizontalAlignment="Left" Height="23" Margin="136,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="CostBeforeMarkup" HorizontalAlignment="Left" Height="23" Margin="455,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="CostAfterMarkup" HorizontalAlignment="Left" Height="23" Margin="455,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="LblSKUNumber" Content="SKU Number:" HorizontalAlignment="Left" Margin="49,134,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="LblItemName" Content="Item Name:" HorizontalAlignment="Left" Margin="59,197,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="LblNumberOfStock" Content="Quantity of Stock:" HorizontalAlignment="Left" Margin="27,257,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="LblCostBeforeMarkup" Content="Cost Before Markup:" HorizontalAlignment="Left" Margin="332,131,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="LblCostAfterMarkup" Content="Cost After Markup:" HorizontalAlignment="Left" Margin="340,197,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.531,-0.281" Visibility="Hidden"/>
+        <Button x:Name="ModifyStock" Content="Modify" HorizontalAlignment="Left" Margin="472,329,0,0" VerticalAlignment="Top" Width="103" Height="51" Click="ModifyStock_Click" Visibility="Hidden"/>
+        <Label x:Name="StartingStockNumber" Content="" HorizontalAlignment="Left" Margin="136,359,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
